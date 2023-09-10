@@ -1,3 +1,9 @@
+## deploy UI to github-pages
+in the .store dir run ->
+ng build --base-href=/WebShop-ui/ (this has be similar to index.html <base href="/WebShop-ui/">)
+npx angular-cli-ghpages --dir=dist/store
+
+
 # Store
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
